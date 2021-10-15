@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Times New Roman", sans-serif;
+  }
+  body {
+    background: #f9f9f9;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 0 0px;
+  }
+  
+  header {
+    /* background-color: #009069; */
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/2/27/zelenyi-fon-tekstura-abstract-background-green-color.jpg");
+    width: 30vw;
+    height:12vh;
+    margin: 30px -10px;
+    padding: 5px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+  #logo {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+  .menu-bar{
+    width:50vw;
+    padding-left: 80vw;
+    margin-bottom: -3vw;
+    /* float:right; */
+  }
+  .note-board {
+    display: flex;
+    flex-wrap: wrap;
+    /* position:absolute; */
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    margin-left: 30vw;
+  }
+
+
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px #ccc;
+    padding: 15px 10px 15px 10px;
+    width: 800px;
+    height:80px;
+    margin: 8px auto;
+    align-items: center;
+  }
+
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #009069;
+    background-color: #ffffff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  form.create-note {
+    position: absolute;
+    width: 350px;
+    height:280px;
+    margin-top: 6vh;
+    margin-left: 6vw;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgb(138, 137, 137);
+    
+  }
+  form.create-note input,
+  form.create-note textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    
+  }
+  form.create-note button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #768256;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 10px rgb(138, 137, 137);
+    cursor: pointer;
+    outline: none;
+    
+  }
+ .create-note-block{
+   margin-bottom: 10px;
+ }
+  .form-container{
+    color: white;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .field {
+    color: white;
+    text-align:left;
+  }
+
+  .ui.input {
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+
+  button.ui.primary.button {
+    margin-top: 10px;
+    width: 400px;
+    background-color: rgb(0,144,105);
+    opacity: 1 !important;
+  }
+
+  button.ui.primary.button:hover {
+    background-color: rgb(0,144,105) !important;
+  }
+
+  button.ui.primary.button:visited {
+    background-color: rgb(0,144,105);
+  }
+  
+  button.ui.primary.button:active {
+    background-color: rgb(0,144,105);
+  }
+
+  button.ui.primary.button:focus {
+    background-color: rgb(0,144,105);
+  }
+
+  form.create-note label{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    
+  }
+
+  #operations {
+    height: 40px;
+    width:50vw;
+    margin:auto 40vw;
+  }
+
+  .page {
+    overflow: hidden;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/2/27/zelenyi-fon-tekstura-abstract-background-green-color.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 470px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+  }
+
+  .register {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 550px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .introduction{
+    width: 400px;
+    padding-top: 50px;
+    margin-left: 100px;
+  }
+  .title-one{
+    width:500px;
+    font-size: 40px;
+    padding: 10px 0;
+  }
+
+  .title-two{
+    color: gray;
+    width:500px;
+    padding: 10px 0px;
+  }
+
+.summary{
+  margin-top: 30px;
+  padding: 20px 50px;
+}
+
